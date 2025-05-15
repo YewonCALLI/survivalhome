@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Gugi&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poiret+One&display=swap);
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.title{
+    position:absolute;
+    top:3%;
+    left:3%;
+    width:30%;
+    font-family: 'Gugi', cursive;
+    font-size : 30px;
+}
+
+.title2{
+    position:absolute;
+    top:7%;
+    left:3%;
+    width:30%;
+    font-family: 'Poiret One', cursive;
+    font-size : 24px;
+}
+
+
+.title1{
+    position:absolute;
+    bottom:3%;
+    left:50%;
+    text-align: center;
+    width:70%;
+    transform: translate(-50%,-50%);
+    font-family: 'Gugi', cursive;
+    font-size : 15px;
+}
+.pointer {
+    position: absolute;
+    height: 480px; top:100px;
+    width: 480px; left:50%;
+    pointer-events: none;
+  }
+
+  .pointer img {
+    width: 140px;
+  }
+
+/*# sourceMappingURL=main.css.map*/
